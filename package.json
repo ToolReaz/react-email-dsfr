@@ -1,0 +1,24 @@
+{
+  "name": "react-email-dsfr",
+  "version": "0.0.1",
+  "description": "A set of premade React Email components matching French Design System style.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToolReaz/react-email-dsfr.git"
+  },
+  "keywords": [
+    "DSFR",
+    "React",
+    "Email"
+  ],
+  "author": "ToolReaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ToolReaz/react-email-dsfr/issues"
+  },
+  "homepage": "https://github.com/ToolReaz/react-email-dsfr#readme"
+}
