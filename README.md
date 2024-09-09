@@ -18,7 +18,6 @@ A set of premade React Email components matching French Design System style.
   - [ ] Notice
   - [ ] Highlight
   - [ ] Share
-  - [ ]
 - [ ] Templates
 - [ ] Theme provider (with Marainne font import)
 - [ ] GitHub page demo website
