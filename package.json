@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ToolReaz/react-email-dsfr#readme",
   "devDependencies": {
+    "@types/react": "^18.3.5",
     "react-email": "3.0.1"
   },
   "dependencies": {

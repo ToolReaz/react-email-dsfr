@@ -1,11 +1,12 @@
-import { Button as BaseButton, ButtonProps } from "@react-email/components";
+import { Button as BaseButton } from "@react-email/components";
 import * as React from "react";
 
-export type ButtonPropsType = ButtonProps & {
-  variant: "primary" | "secondary";
+export type ButtonProps = {
+  variant?: "primary" | "secondary";
+  href?: string;
 };
 
-export default function Button({ href }: ButtonPropsType) {
+export default function Button({ href, variant = "primary" }: ButtonProps) {
   return (
     <BaseButton href={href} style={styles.default}>
       Click me
@@ -13,7 +14,7 @@ export default function Button({ href }: ButtonPropsType) {
   );
 }
 
-const styles = {
+const styles: { [key: string]: React.CSSProperties } = {
   default: {
     fontFamily: "Marianne, Arial, sans-serif",
     alignItems: "center",
