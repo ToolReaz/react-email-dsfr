@@ -4,7 +4,8 @@
   "description": "A set of premade React Email components matching French Design System style.",
   "main": "index.js",
   "scripts": {
-    "dev": "email dev -d src"
+    "dev": "email dev -d src",
+    "build": "email build -d src"
   },
   "repository": {
     "type": "git",
