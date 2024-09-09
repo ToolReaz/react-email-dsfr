@@ -17,6 +17,7 @@ export default function Heading({
   return (
     <BaseHeading
       className={className}
+      as={`h${level}`}
       style={{ ...styles.default, ...styles[level], ...style }}
     >
       {children}
