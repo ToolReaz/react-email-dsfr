@@ -1,11 +1,11 @@
 <h1 align="center">🇫🇷 React Email DSFR 🇫🇷</h1>
 
 <p align="center">
-    <a href="https://github.com/codegouvfr/react-dsfr/actions">
-      <img src="https://github.com/codegouvfr/react-dsfr/workflows/ci/badge.svg?branch=main">
+    <a href="https://github.com/toolreaz/react-email-dsfr/actions">
+      <img src="https://img.shields.io/badge/status-work_in_progress-blue">
     </a>
-    <a href="https://github.com/codegouvfr/react-dsfr/blob/main/LICENSE">
-      <img src="https://img.shields.io/npm/l/@codegouvfr/react-dsfr">
+    <a href="https://github.com/ToolReaz/react-email-dsfr/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/toolreaz/react-email-dsfr">
     </a>
 </p>
 
