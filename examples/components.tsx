@@ -2,6 +2,7 @@ import React from "react";
 import Provider from "../src/components/provider";
 import Typo from "../src/components/typo";
 import Heading from "../src/components/heading";
+import Button from "../src/components/button";
 
 export default function Components() {
   return (
@@ -17,6 +18,9 @@ export default function Components() {
       <Typo size="md">Typo md Lorem, ipsum.</Typo>
       <Typo size="sm">Typo sm Lorem, ipsum.</Typo>
       <Typo size="xs">Typo xs Lorem, ipsum.</Typo>
+      <Button>Button</Button>
+      <Button variant="secondary">Button</Button>
+      <Button variant="tertiary">Button</Button>
     </Provider>
   );
 }
